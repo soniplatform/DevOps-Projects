@@ -1,0 +1,10 @@
+            - name: VS Code Server Action
+  # You may pin to the exact commit or the version.
+  # uses: stateful/vscode-server-action@ec99599aefe0bf96d14491e1d5f7e80d30e22247
+  uses: stateful/vscode-server-action@v1.1.0
+  with:
+    # Name of the machine to access (default: GitHub Action run id)
+    machineName: # optional
+    # The time until the action continues the build of the machine does not get authorised
+    timeout: # default is 30000
+          
